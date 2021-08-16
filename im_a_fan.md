@@ -11,6 +11,8 @@ we can upload files with "internal" but there we need
 to specify a path and not a link or upload a file, which
 was unexpected, but with this we could read files.
 
+`curl -X POST http://193.57.159.27:33326/upload/content -F file=/etc/passwd -F source=internal`
+
 We then spent way too long reading random files to
 get information but we didn't try to do the obivous thing:
 Read the source of the app. But when we finally did we
